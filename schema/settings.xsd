@@ -1,0 +1,15 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns="qrssreader.kacerpetr.cz" targetNamespace="qrssreader.kacerpetr.cz" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="settings">
+    <xs:complexType>
+      <xs:all minOccurs="1" maxOccurs="1">
+        <xs:element type="xs:byte" name="list_title_font_size"/>
+        <xs:element type="xs:byte" name="list_time_font_size"/>
+        <xs:element type="xs:byte" name="view_title_font_size"/>
+        <xs:element type="xs:byte" name="view_text_font_size"/>
+        <xs:element type="xs:byte" name="view_footer_font_size"/>
+        <xs:element type="xs:byte" name="max_viewed_days"/>
+        <xs:element type="xs:byte" name="feedlist_tab_count"/>
+      </xs:all>
+    </xs:complexType>
+  </xs:element>
+</xs:schema> 

@@ -1,0 +1,278 @@
+/* -----------------------
+ * Main page layout styles
+ * -----------------------
+ */
+
+body{
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  background-color: white;
+}
+
+/*
+ * Page header
+ */
+
+.header{
+  float: left;
+  width: 100%;
+  min-width: 670px;
+  background-color: #464646;
+}
+
+.header .mid{
+  width: 70%;
+  min-width: 670px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 15px;
+  padding-top: 10px;
+  max-width: 1170px;
+}
+
+.header .mid .header{
+  width: 100%;
+}
+
+.header .mid .header h1{
+  color: white;
+  font-size: 40pt;
+  font-weight: normal;
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  border-bottom: 1px solid white;
+  margin-bottom: 13px;
+}
+
+.header .mid .subheader{
+  color: white;
+  font-size: 16pt;
+  width: 100%;
+  text-align: right;
+  max-width: 1170px;
+}
+
+/*
+ * Page content 
+ */
+
+.content{
+  float: left;
+  width: 100%;
+  min-width: 670px;
+}
+
+.content .mid{
+  width: 70%;
+  min-width: 670px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1170px;
+}
+
+.content .mid .article{
+  float: left;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/*
+ * Page footer 
+ */
+
+.footer{
+  float: left;
+  width: 100%;
+  min-width: 670px;
+  background-color: #5a5a5a;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer .mid{
+  width: 70%;
+  min-width: 670px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #dddddd;
+  font-weight: bold;
+  max-width: 1170px;
+}
+
+.footer .mid .left{
+  float: left;
+}
+
+.footer .mid .right{
+  float: right;
+}
+
+/*
+ * Advertisement footer
+ */
+
+.advertisment{
+  float: left;
+  width: 100%;
+  min-width: 670px;
+  background-color: #5a5a5a;
+  padding-bottom: 10px;
+  border-top: 1px solid white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.advertisment div{
+  text-align: center;
+  color: #dddddd;
+}
+
+.advertisment div div{
+  text-align: center;
+  color: #dddddd;
+}
+
+/* --------------
+ * Content styles
+ * --------------*/
+
+h2{
+  color: #464646;
+  font-size: 25pt;
+  font-weight: normal;
+  margin: 15px 0 10px 0;
+  border: 0px;
+  padding: 0px;
+  float: left;
+  width: 100%;
+}
+
+h3{
+  color: #464646;
+  font-size: 18pt;
+  font-weight: normal;
+  font-style: italic;
+  margin: 0px;
+  border: 0px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 0px;
+  padding-right: 0px;
+  float: left;
+  width: 100%;
+}
+
+p{
+  margin-top: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border: 0px;
+  padding: 0px;
+  text-align: justify;
+}
+
+a{
+  text-decoration: underline;
+  color: blue;
+}
+
+/*
+ * Documentation buttons line
+ */
+
+.docs{
+  width: 100%;
+  text-align: center;
+  float: left;
+}
+
+.docsTable{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0px;
+  padding: 0px;
+}
+
+.docsTable tr{
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.docsTable tr td{
+  background-color: white;
+  border: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  margin: 0px;
+}
+
+.docsTable tr td a{
+  text-decoration: none;
+  font-weight: bold;
+  width: 100%;
+  color: black;
+  float: left;
+  border: 6px solid #e8e8e8;
+  background-color: #e8e8e8;
+  border-radius: 4px;
+  padding-bottom: 5px;
+}
+
+.docsTable tr td a:hover{
+  border: 6px solid #f4f4f4;
+  background-color: #f4f4f4;
+}
+
+.docsTable tr td a img{
+  padding-top: 10px;
+}
+
+/*
+ * Download section
+ */
+
+.download{
+  float: left;
+  width: 100%;
+  height: 80px;
+}
+
+.download img{
+  width: 64px;
+  height: 64px;
+  float: left;
+  margin-left: 20px;
+}
+
+.download .text{
+  height: 64px;
+  float: left;
+  margin-top: 12px;
+  margin-left: 40px;
+}
+
+/*
+ * Screenshots miniatures 
+ */
+
+.screenshot{
+  padding: 0px;
+  margin-left: 10px;
+  border-radius: 4px;
+  border: 10px solid #cccccc;
+  margin-bottom: 10px;
+  float: left;
+}
+
+.screenshot:hover{
+  padding: 0px;
+  margin-left: 10px;
+  border-radius: 4px;
+  border: 10px solid #dddddd;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,59 @@
+/* ----------------------
+ * Xml schema page styles
+ * ----------------------*/
+
+body{
+  background-color: white;
+}
+
+h1{
+  color: #464646;
+  font-size: 34pt;
+  font-weight: normal;
+  margin: 15px 0 10px 0;
+  border: 0px;
+  padding: 0px;
+  float: left;
+  width: 100%;
+} 
+
+h2{
+  color: #464646;
+  font-size: 25pt;
+  font-weight: normal;
+  margin: 15px 0 10px 0;
+  border: 0px;
+  padding: 0px;
+  float: left;
+  width: 100%;
+}
+
+img{
+  float: left;
+  margin-top: 15px;
+}
+
+a{
+  float: left;
+}
+
+/*
+ * Centering page
+ */
+
+.center{
+  margin-left: auto;
+  margin-right: auto;
+  width: 650px;
+}
+
+/*
+ * Advertisement footer
+ */
+ 
+.advertisement{
+  float: left;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
